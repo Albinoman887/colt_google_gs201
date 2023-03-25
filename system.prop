@@ -38,3 +38,18 @@ persist.vendor.radio.5g_mode_pref_0=1
 persist.vendor.radio.5g_mode_pref_1=1
 
 persist.sys.strictmode.disable=true
+
+# Fling
+ro.min.fling_velocity=20000
+ro.max.fling_velocity=20000
+
+#visual_tweak
+debug.sf.hw=0
+debug.egl.hw=0
+debug.enable.sglscale=1
+debug.sf.enable_hwc_vds=1
+debug.sf.auto_latch_unsignaled=true
+debug.gralloc.enable_fb_ubwc=1
+debug.sf.latch_unsignaled=1
+debug.sf.recomputecrop=0
+dev.pm.dyn_samplingrate=1

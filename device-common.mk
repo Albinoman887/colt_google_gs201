@@ -52,4 +52,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.thermal_warmreset = true
     
-TARGET_SYSTEM_PROP := device/google/gs201/system.prop
+TARGET_SYSTEM_PROP += device/google/gs201/system.prop
