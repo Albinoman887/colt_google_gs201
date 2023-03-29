@@ -1,0 +1,3 @@
+# Fling
+ro.min.fling_velocity=20000 
+ro.max.fling_velocity=20000
