@@ -341,9 +341,5 @@
     <bool name="config_show_refresh_rate_controls">true</bool>
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
 
-<!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
-    
-    <!-- Whether devices suports in-display fingerprint when screen is off -->
-    <bool name="config_supportsScreenOffUdfps">true</bool>   
+
 </resources>
