@@ -451,3 +451,6 @@ PRODUCT_COPY_FILES += \
     
 # Properties
 TARGET_VENDOR_PROP += device/google/gs201/vendor.prop
+
+
+

@@ -38,6 +38,9 @@
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
 
+
+   <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
     <!-- The component name for the default system attention service.
          This service must be trusted, as it can be activated without explicit consent of the user.
          See android.attention.AttentionManagerService.
@@ -61,13 +64,8 @@
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
-   <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
-    
-    <!-- Whether devices suports in-display fingerprint when screen is off -->
-    <bool name="config_supportsScreenOffUdfps">true</bool>
-
     <!-- IWLAN-->
     <string name="config_qualified_networks_service_package">com.android.qns</string>
-
+    
+  
 </resources>

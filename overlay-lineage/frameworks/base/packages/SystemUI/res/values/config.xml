@@ -31,9 +31,6 @@
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
  
-       <!-- Whether to pulse onFingerDown actions instead
-        of waking the screen while the screen is off or in lpm. -->
-    <bool name="config_pulseOnFingerDown">true</bool>
       <!-- Whether show refresh rate QS tile -->
     <bool name="config_showRefreshRateQsTile">true</bool>
 
