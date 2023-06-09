@@ -13,15 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
-BUILD_BROKEN_DUP_RULES := true
-DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
-
-GLOBAL_THINLTO := true
-
-# Camera
-MALLOC_SVELTE_FOR_LIBC32 := true
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
@@ -395,9 +386,5 @@ BOARD_PVMFWIMAGE_PARTITION_SIZE := 0x00100000
 
 # pick up library for cleaning digital car keys on factory reset
 -include vendor/google_devices/gs-common/proprietary/BoardConfigVendor.mk
-
-# Adaptive charging
-PRODUCT_COPY_FILES += \
-    device/google/gs201/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
 
 include device/google/gs201/BoardConfigColt.mk

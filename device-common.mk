@@ -17,6 +17,7 @@
 ifneq ($(BOARD_WITHOUT_RADIO),true)
 -include vendor/google_devices/gs201/proprietary/telephony/device-vendor.mk
 endif
+include device/google/gs201/colt-common.mk
 include device/google/gs201/device.mk
 include device/google/gs101/tts/voice_packs.mk
 
