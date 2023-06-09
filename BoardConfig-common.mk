@@ -20,6 +20,11 @@ DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 GLOBAL_THINLTO := true
 
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image.lz4
+TARGET_KERNEL_CONFIG := cloudripper_gki_defconfig
+
+
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
 
